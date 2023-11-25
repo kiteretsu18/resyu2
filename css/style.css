@@ -1,0 +1,234 @@
+@charset "UTF-8";
+
+body{
+    width: 375px;
+    margin: 0 auto;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* headerのスタイル */
+.header{
+    width: 375px;
+    margin: 0 auto;
+}
+
+
+.header-span{
+    color: #1FB3EA;
+}
+
+.header-logo{
+    width: 247px;
+    height: 48px;
+    margin: 16px auto;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+
+.nav-list{
+    width: 260px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    margin: 16px auto;
+
+}
+
+.nav-item{
+    font-weight: 400;
+    font-size: 14px;
+    color: #111111;
+}
+
+.nav-item + .nav-item{
+    margin-left: 24px;
+}
+
+/* お知らせのスタイル */
+
+.main{
+    width: 375px;
+    color: #111111;
+}
+
+.news{
+    width: 375px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 96px;
+}
+
+.news-ttl{
+    padding-top: 80px;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 2px;
+
+}
+
+.top-news-list{
+    width: 343px;
+    margin: 40px 16px 56px 16px;
+    
+}
+
+.news-list{
+    display: flex;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 28px
+}
+
+.news-list time{
+    padding-right: 16px;
+}
+
+.news-txt{
+    border-bottom: 1px solid;
+    
+}
+
+.news-list + .news-list{
+    padding-top: 16px;
+}
+
+.items-btn{
+    font-weight: bold;
+    font-size: 14px;
+    padding: 16px 24px;
+    width: 185px;
+    height: 60px;
+    background-color: #1FB3EA;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+
+/* serviceのスタイル */
+.wrap{
+    width: 375px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FAFAFA;
+    letter-spacing: 2px;
+}
+
+.service-inner{
+    background-color: #FAFAFA;
+    padding-bottom: 80px;
+}
+
+.top-service-ttl{
+    font-weight: bold;
+    font-size: 24px;
+    padding: 80px 16px 40px 16px;
+
+}
+
+.service-ttl{
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    
+}
+.service-txt{
+    font-weight: 400;
+    font-size: 14px;
+    padding: 0 15px 24px 15px;
+    text-align: left;
+    line-height: 28px;
+    
+   
+}
+
+.service-item{
+    width: 343px;
+    height: 160px;
+    
+}
+
+.service-img{
+    width: 343px;
+    height: 160px;
+    background-image: url('/アレンジ/スマホ/src/img/2.png');
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+.service-img2{
+    width: 343px;
+    height: 160px;
+    background-image: url('/アレンジ/スマホ/src/img/3.png');
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+.service-img3{
+    width: 343px;
+    height: 160px;
+    background-image: url('/アレンジ/スマホ/src/img/4.png');
+    background-size: cover;
+    margin: 16px auto;
+
+}
+
+.img-ttl{
+    color: #ffffff; 
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 42px;
+}
+
+.img-txt{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+/* お問い合わせのスタイル */
+.contact-form-img{
+    width: 375px;
+    background-image: url('/アレンジ/スマホ/src/img/5.png');
+    margin: 0 auto;
+    height: 488px;
+}
+
+.contact-form-ttl{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: 80px;
+}
+
+.contact-txt{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: left;
+    padding: 16px;
+    padding-top: 40px;
+    padding-bottom: 56px;
+  
+}
+
+footer{
+    background-color: #111111;
+    color: #ffffff;
+    width: 375px;
+    height: 56px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 16px;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}

@@ -195,7 +195,7 @@ body{
 /* お問い合わせのスタイル */
 .contact-form-img{
     width: 375px;
-    background-image: url('/img/5.png');
+    background-image: url('https://github.com/kiteretsu18/resyu2/blob/main/img/5.png?raw=true');
     margin: 0 auto;
     height: 488px;
 }

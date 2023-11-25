@@ -156,7 +156,7 @@ body{
 .service-img{
     width: 343px;
     height: 160px;
-    background-image: url('/アレンジ/スマホ/src/img/2.png');
+    background-image: url('/img/2.png');
     background-size: cover;
     margin: 0 auto;
     margin-top: 16px;
@@ -164,7 +164,7 @@ body{
 .service-img2{
     width: 343px;
     height: 160px;
-    background-image: url('/アレンジ/スマホ/src/img/3.png');
+    background-image: url('/img/3.png');
     background-size: cover;
     margin: 0 auto;
     margin-top: 16px;
@@ -172,7 +172,7 @@ body{
 .service-img3{
     width: 343px;
     height: 160px;
-    background-image: url('/アレンジ/スマホ/src/img/4.png');
+    background-image: url('/img/4.png');
     background-size: cover;
     margin: 16px auto;
 
@@ -195,7 +195,7 @@ body{
 /* お問い合わせのスタイル */
 .contact-form-img{
     width: 375px;
-    background-image: url('/アレンジ/スマホ/src/img/5.png');
+    background-image: url('/img/5.png');
     margin: 0 auto;
     height: 488px;
 }
